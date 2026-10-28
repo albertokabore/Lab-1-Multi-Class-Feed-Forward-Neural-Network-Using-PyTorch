@@ -1,0 +1,184 @@
+{
+  "source": "https://s3.amazonaws.com/fast-ai-nlp/ag_news_csv.tgz",
+  "train": {
+    "same_labels": true,
+    "changed_text_rows": 26,
+    "changed_cells": [
+      {
+        "row": 1820,
+        "column": 2,
+        "original_characters": 261,
+        "local_value": "----------------------------------------------- GLENDALE, Arizona (Ticker) - Mike Johnson missed most of last season after undergoing shoulder surgery, but that didn #39;t stop the Phoenix Coyotes from giving him the veteran right wing a three-year contra"
+      },
+      {
+        "row": 2884,
+        "column": 2,
+        "original_characters": 256,
+        "local_value": "- The United Nations World Food Programme (WFP) is gearing up for the most critical stage yet of its operation to deliver food assistance to hundreds of thousands of people affected by conflict in the Darfur region of western Sudan. As the rainy season .."
+      },
+      {
+        "row": 17812,
+        "column": 2,
+        "original_characters": 167,
+        "local_value": "#NAME?"
+      },
+      {
+        "row": 21463,
+        "column": 1,
+        "original_characters": 18,
+        "local_value": "#NAME?"
+      },
+      {
+        "row": 22955,
+        "column": 2,
+        "original_characters": 169,
+        "local_value": "#NAME?"
+      },
+      {
+        "row": 23121,
+        "column": 1,
+        "original_characters": 36,
+        "local_value": "#NAME?"
+      },
+      {
+        "row": 23320,
+        "column": 1,
+        "original_characters": 37,
+        "local_value": "#NAME?"
+      },
+      {
+        "row": 23782,
+        "column": 1,
+        "original_characters": 39,
+        "local_value": "#NAME?"
+      },
+      {
+        "row": 23969,
+        "column": 2,
+        "original_characters": 211,
+        "local_value": "#NAME?"
+      },
+      {
+        "row": 27805,
+        "column": 2,
+        "original_characters": 157,
+        "local_value": "#NAME?"
+      },
+      {
+        "row": 27806,
+        "column": 2,
+        "original_characters": 181,
+        "local_value": "#NAME?"
+      },
+      {
+        "row": 29104,
+        "column": 2,
+        "original_characters": 199,
+        "local_value": "#NAME?"
+      },
+      {
+        "row": 30997,
+        "column": 1,
+        "original_characters": 49,
+        "local_value": "#NAME?"
+      },
+      {
+        "row": 37060,
+        "column": 1,
+        "original_characters": 39,
+        "local_value": "#NAME?"
+      },
+      {
+        "row": 42727,
+        "column": 1,
+        "original_characters": 37,
+        "local_value": "#NAME?"
+      },
+      {
+        "row": 43162,
+        "column": 1,
+        "original_characters": 36,
+        "local_value": "#NAME?"
+      },
+      {
+        "row": 45922,
+        "column": 2,
+        "original_characters": 161,
+        "local_value": "#NAME?"
+      },
+      {
+        "row": 48235,
+        "column": 1,
+        "original_characters": 37,
+        "local_value": "#NAME?"
+      },
+      {
+        "row": 49737,
+        "column": 1,
+        "original_characters": 39,
+        "local_value": "#NAME?"
+      },
+      {
+        "row": 65123,
+        "column": 1,
+        "original_characters": 39,
+        "local_value": "#NAME?"
+      },
+      {
+        "row": 66015,
+        "column": 1,
+        "original_characters": 36,
+        "local_value": "#NAME?"
+      },
+      {
+        "row": 83969,
+        "column": 1,
+        "original_characters": 63,
+        "local_value": "#NAME?"
+      },
+      {
+        "row": 93286,
+        "column": 1,
+        "original_characters": 29,
+        "local_value": "#NAME?"
+      },
+      {
+        "row": 94466,
+        "column": 2,
+        "original_characters": 215,
+        "local_value": "#NAME?"
+      },
+      {
+        "row": 101262,
+        "column": 2,
+        "original_characters": 207,
+        "local_value": "#NAME?"
+      },
+      {
+        "row": 112256,
+        "column": 1,
+        "original_characters": 36,
+        "local_value": "#NAME?"
+      }
+    ]
+  },
+  "test": {
+    "same_labels": true,
+    "changed_text_rows": 2,
+    "changed_cells": [
+      {
+        "row": 1899,
+        "column": 1,
+        "original_characters": 40,
+        "local_value": "#NAME?"
+      },
+      {
+        "row": 3869,
+        "column": 1,
+        "original_characters": 39,
+        "local_value": "#NAME?"
+      }
+    ]
+  },
+  "classes_match": true
+}

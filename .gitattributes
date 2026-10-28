@@ -1,0 +1,3 @@
+# Keep generated submission documents binary in Git.
+*.pdf binary
+*.docx binary

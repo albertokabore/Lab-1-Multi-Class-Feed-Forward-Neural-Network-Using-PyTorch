@@ -1,0 +1,137 @@
+{
+  "seed": 1234,
+  "device": "cpu",
+  "python": "3.11.0",
+  "versions": {
+    "torch": "2.14.0+cpu",
+    "pandas": "2.3.2",
+    "numpy": "2.3.2",
+    "nltk": "3.10.3",
+    "scikit-learn": "1.7.2",
+    "tqdm": "4.70.1",
+    "matplotlib": "3.9.2"
+  },
+  "input_sha256": {
+    "train.csv": "e2392f9ef0d57b110c520bf6e5aa61d88904188306ca3d4e1836f30f07a98eec",
+    "test.csv": "de13a4c2c606958f7b9b7e3835cc5a829b1d54275bfc83ba0e0e9dad3e4a1c5b",
+    "classes.txt": "612dbfa932f07a6ed837295a7d5746ce7412e7bb4bc32ba919fdb3cda3a1b9b5"
+  },
+  "train_rows": 96000,
+  "development_rows": 24000,
+  "test_rows": 7600,
+  "vocabulary_size": 17369,
+  "distinct_training_tokens": 79175,
+  "total_training_tokens": 4010277,
+  "retained_training_tokens": 3856145,
+  "trainable_parameters": 868704,
+  "hyperparameters": {
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "batch_size": 500,
+    "epochs": 5,
+    "hidden_units": 50,
+    "dropout": 0.3
+  },
+  "classification_report": {
+    "World": {
+      "precision": 0.9362397820163487,
+      "recall": 0.9042105263157895,
+      "f1-score": 0.9199464524765729,
+      "support": 1900.0
+    },
+    "Sports": {
+      "precision": 0.9580562659846548,
+      "recall": 0.9857894736842105,
+      "f1-score": 0.9717250324254215,
+      "support": 1900.0
+    },
+    "Business": {
+      "precision": 0.8916622411046203,
+      "recall": 0.8836842105263157,
+      "f1-score": 0.887655300026434,
+      "support": 1900.0
+    },
+    "Sci/Tech": {
+      "precision": 0.8884276076803321,
+      "recall": 0.9010526315789473,
+      "f1-score": 0.8946955840083617,
+      "support": 1900.0
+    },
+    "accuracy": 0.9186842105263158,
+    "macro avg": {
+      "precision": 0.9185964741964889,
+      "recall": 0.9186842105263158,
+      "f1-score": 0.9185055922341975,
+      "support": 7600.0
+    },
+    "weighted avg": {
+      "precision": 0.918596474196489,
+      "recall": 0.9186842105263158,
+      "f1-score": 0.9185055922341975,
+      "support": 7600.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      1718,
+      54,
+      73,
+      55
+    ],
+    [
+      13,
+      1873,
+      8,
+      6
+    ],
+    [
+      52,
+      15,
+      1679,
+      154
+    ],
+    [
+      52,
+      13,
+      123,
+      1712
+    ]
+  ],
+  "class_order": [
+    "World",
+    "Sports",
+    "Business",
+    "Sci/Tech"
+  ],
+  "history": {
+    "train_loss": [
+      0.5855700954174002,
+      0.31575584256400663,
+      0.2694582811867197,
+      0.2412395962358763,
+      0.2240551896393299
+    ],
+    "train_accuracy": [
+      0.8327604166666668,
+      0.8989791666666666,
+      0.9112708333333334,
+      0.9180104166666667,
+      0.9223020833333333
+    ],
+    "development_loss": [
+      0.2942768136660258,
+      0.2537315379207333,
+      0.23837480445702872,
+      0.23315604807188114,
+      0.22997404914349318
+    ],
+    "development_accuracy": [
+      0.9105,
+      0.9179583333333333,
+      0.9215833333333334,
+      0.9216666666666667,
+      0.9215833333333334
+    ]
+  },
+  "elapsed_seconds": 1008.6333605000109
+}

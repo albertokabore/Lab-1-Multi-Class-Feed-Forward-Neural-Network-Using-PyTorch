@@ -1,0 +1,17 @@
+# Versions used for the reviewed execution (Python 3.11).
+torch==2.14.0
+pandas==2.3.2
+numpy==2.3.2
+nltk==3.10.3
+scikit-learn==1.7.2
+tqdm==4.70.1
+matplotlib==3.9.2
+nbformat==5.10.4
+nbclient==0.10.2
+ipykernel
+ipywidgets
+
+# Word/PDF export from the executed notebook.
+python-docx==1.2.0
+reportlab==5.0.1
+mistune==3.1.4

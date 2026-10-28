@@ -211,6 +211,9 @@ tempCodeRunnerFile.py
 # PyPI configuration file
 .pypirc
 
+# Local document review images.
+artifacts/previews/
+
 # Marimo
 marimo/_static/
 marimo/_lsp/
